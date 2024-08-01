@@ -606,6 +606,21 @@ button:hover {
   background-color: #fff;
   box-shadow: 0 2px 15px var(--maincolor);
 }
+#signup-title {
+  text-align: center;
+}
+.signup {
+  padding-top: 10px;
+  text-align: center;
+}
+.signup a {
+  text-decoration: none;
+  color: maroon;
+  font-size: 14px;
+}
+.signup a:hover {
+  border-bottom: 1px solid maroon;
+}
 
 @media only screen and (max-width: 1250px) {
   .food-items .items {
@@ -1399,7 +1414,7 @@ button:hover {
     text-align: center;
   }
   .table {
-    width: 300px;
+    width: 350px;
   }
   .book-title h2 {
     font-size: 25px;
@@ -1424,6 +1439,9 @@ button:hover {
   }
   .main-slide4 {
     margin: 70px;
+  }
+    .table {
+    width: 300px;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -1575,8 +1593,8 @@ button:hover {
     padding: 5px 10px;
   }
   .table {
-    width: 90%;
-    top: 35%;
+    width: 80%;
+    top: 50%;
   }
   .book-title h2 {
     font-size: 35px;
@@ -1644,12 +1662,16 @@ button:hover {
     width: 100px;
     height: 42px;
   }
+    .table {
+    width: 80%;
+    top: 50%;
+  }
 }
 @media only screen and (max-width: 380px) {
   .main-slide1 {
     padding: 0 35px;
   }
-  .main-dish img{
+  .main-dish img {
     width: 180px;
     height: 180px;
   }
@@ -1657,10 +1679,10 @@ button:hover {
     width: 200px;
     height: 50vh;
   }
-  .items{
+  .items {
     justify-content: center;
   }
-  button{
+  button {
     margin-top: 0;
   }
   .main-slide2 {
@@ -1708,7 +1730,7 @@ button:hover {
     padding: 0;
   }
   .chef-vic div {
-    padding-left: 2px;
+    padding: 2px;
     width: 250px;
   }
   .chef-pic img {
@@ -1773,5 +1795,8 @@ button:hover {
   .table {
     width: 80%;
     top: 50%;
+  }
+  button{
+    margin-top: 10px;
   }
 }
