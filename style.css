@@ -1651,6 +1651,13 @@ button:hover {
   }
   .food-items .items {
     width: 200px;
+    height: 50vh;
+  }
+  .items{
+    justify-content: center;
+  }
+  button{
+    margin-top: 0;
   }
   .main-slide2 {
     margin: 20px 35px;
