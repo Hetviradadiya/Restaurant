@@ -1649,6 +1649,10 @@ button:hover {
   .main-slide1 {
     padding: 0 35px;
   }
+  .main-dish img{
+    width: 180px;
+    height: 180px;
+  }
   .food-items .items {
     width: 200px;
     height: 50vh;
